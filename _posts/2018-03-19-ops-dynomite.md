@@ -1,18 +1,22 @@
 ---
 layout: post
-title: "Dynomite 应用及运维实例"
+title: "Dynomite 在redis上的应用及运维实例"
 tags: [ops]
 comments: true
 date: 2018-03-19 15:48:29+08:00
 ---
 
+#### 背景:
+公司主业务的每个分布式集群上, 都有自己的Redis集群, 业务中的一些定时更新内容需要同步复制到各个集群中, 因此, Dynomite正好特供了解决相关问题的可靠思路
 
-#### 大致介绍:
-```
-1.大规模运用于aws和netflix
-2.可以跨数据中心进行redis常见操作的同步  
-3.dynomite本身类似与redis上的代理, 转发redis操作协议到其他server   
-```
+
+#### Dynomite 大致介绍:
+> Dynomite是Dynamo的一个用于K/V数据库的实现，Dynamo是亚马逊的一个分布式K/V存储系统，它具备去中心化、高可用性、高扩展性的特点。非常著名的NoSql数据库Cassandra就是按照Dynamo的P2P架构，同时融合了BigTable的数据模型及存储算法实现的。另外，还有一个数据库也叫做Dynomite，它由于受到Dynamo设计思想的启发，并采用 ErLang 语言开发的分布式K/V数据库，请读者不要将二者混淆.
+
+1.大规模运用于aws和netflix中的Redis、Memcached之间数据复制及同步  
+2.可以跨数据中心进行Redis常见操作的同步   
+3.dynomite本身类似与Redis上的代理, 转发Redis操作协议到其他server   
+
 
 #### 项目github地址
 ```
