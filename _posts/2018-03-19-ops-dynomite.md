@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dynomite 在redis上的应用及运维实例"
+title: "Dynomite 在Redis上的应用及运维实例"
 tags: [ops]
 comments: true
 date: 2018-03-19 15:48:29+08:00
