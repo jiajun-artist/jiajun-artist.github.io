@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "在单条流式tcp socket中实现多路并发请求的代理转发"
-tags: [网络编程, tcp, golang]
+title: "第一次技术分享会 记录"
+tags: [网络编程, tcp, 技术分享会]
 comments: true
 date: 2018-03-07 21:00:00+08:00
 ---
