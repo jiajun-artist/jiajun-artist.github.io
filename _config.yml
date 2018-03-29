@@ -32,7 +32,7 @@ navigation:
     url: https://github.com/jiajun-artist
 
 # Pagination
-paginate: 5
+paginate: 20
 
 # Includes an icon in the footer for each username you enter
 footer-links:
