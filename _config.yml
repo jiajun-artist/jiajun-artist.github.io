@@ -21,11 +21,11 @@ avatar: https://raw.githubusercontent.com/jiajun-artist/jiajun-artist.github.io/
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: Blog
-    url: /blog
+    url: /
   - name: About
     url: /about
   - name: Archive
-    url: /
+    url: /archive
   - name: Tags
     url: /tags
   - name: Theme
