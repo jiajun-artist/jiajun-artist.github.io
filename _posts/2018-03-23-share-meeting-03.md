@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "第三次技术分享会 分布式---zk及kafka等"
+title: "第三次技术分享会记录 分布式---zk及kafka等"
 tags: [分布式, 技术分享会, kafka]
 comments: true
 date: 2018-03-23 22:00:00+08:00
